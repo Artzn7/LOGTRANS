@@ -1,0 +1,141 @@
+
+
+.cont2 {
+    background-color: whitesmoke;
+    padding: 6px;
+    width: 350px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 darkgrey;
+    animation: fadeIn 0.8s;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    } to{
+        opacity: 1;
+    }
+}
+
+#signup {
+    position: absolute;
+    margin-top: 80px;
+    transition: .5s;
+    width: 300px;
+    height: 400px;
+}
+
+#signin{
+    position: absolute;
+    margin-top: 80px;
+    transition: .5s;
+    width: 300px;
+    height: 400px;
+}
+
+.buttonsForm {
+    margin-top: 40px;
+    position: relative;
+    border-radius: 30px;
+    box-shadow: 0 0 7px 0 #2724bd;
+}
+
+.buttonsForm button {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    position: relative;
+    padding: 10px 29px;
+}
+
+.btnColor {
+    position: absolute;
+    width: 126px;
+    height: 100%;
+    background: linear-gradient(to right, #3a37df, #2f00ff);
+    border-radius: 30px;
+    transition: .3s;
+}
+
+.inp[type="text"], .inp[type="password"] {
+    border: none;
+    margin-top: 40px;
+    border-radius: 60px;
+    padding: 10px 35px;
+    outline-color: rgb(143, 138, 138);
+    width: 100%;
+}
+
+.btt[type="submit"] {
+    background: #2724bd;
+    color: white;
+    border-radius: 30px;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 8px 0 8px 15px;
+    font-size: 15px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+
+.divCheck {
+    margin: 10px 0 0 5px;
+    width: 80%;
+    font-size: 1rem;
+}
+
+.btt:hover{
+    color: #fff;
+    background: #401e68;
+}
+
+#signin {
+    left: 25px;
+}
+
+#signup {
+    left: 450px;
+}
+
+.i{
+    position: absolute;
+    left: 0;
+    padding: 10px 10px;
+}
+
+.iUser {
+    top: 40px;
+}
+
+.iEmail2 {
+    top: 40px;
+}
+
+.iEmail {
+    top: 114px;
+}
+
+.iPassword{
+    top: 114px;
+}
+
+.iPassword2 {
+    top: 190px;
+}
+
+.inp[type="checkbox" i] {
+    background-color: initial;
+    cursor: pointer;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: 10px 5px;
+    
+}
